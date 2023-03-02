@@ -71,7 +71,17 @@ const ProductsTable = () => {
                     ) :
                     (
                         <>
-                            <h1>Product Table</h1>
+                            <Alert variant="primary">
+                                <Alert.Heading>Add Products to your inventory!</Alert.Heading>
+                                <p>
+                                    Fill the form and upload a new product to the inventory
+                                </p>
+                                <hr />
+                                <p className="mb-0">
+                                    Complete the form
+                                </p>
+                            </Alert>
+                            <h1>Products Table</h1>
                             <Table striped bordered hover responsive size='sm'>
                                 <thead>
                                     <tr>
@@ -119,16 +129,7 @@ const ProductsTable = () => {
                             </Table>
 
 
-                            <Alert variant="primary">
-                                <Alert.Heading>Add Products to your inventory!</Alert.Heading>
-                                <p>
-                                    Fill the form and upload a new product to the inventory
-                                </p>
-                                <hr />
-                                <p className="mb-0">
-                                    You will see your orders below
-                                </p>
-                            </Alert>
+
 
                             <div className='m-5'>
                                 <FormAddProduct></FormAddProduct>

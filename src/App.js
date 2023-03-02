@@ -23,7 +23,7 @@ function App() {
     </Navbar>
 
     <OrdersTable></OrdersTable>
-
+    <hr></hr>
     <ProductsTable></ProductsTable>
 
 
