@@ -69,7 +69,7 @@ const OrdersTable = () => {
     return (
         <>
 
-            <div>
+           {order ? ( <div>
                 {/* <Button variant="outlined" onClick={handleClickOpen}>
             Open full-screen dialog
           </Button> */}
@@ -135,7 +135,7 @@ const OrdersTable = () => {
                         </ListItem>
                     </List>
                 </Dialog>
-            </div>
+            </div>): null}
 
 
             {
