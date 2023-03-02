@@ -1,23 +1,18 @@
-# Getting Started with Create React App
+# Despliegue de proyecto
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto está desplegado en github pages en la URL ()
 
-## Available Scripts
+## Para ejecutar el proyecto
 
-In the project directory, you can run:
+### `npm install`
+
+Es necesario instalar las dependencias necesarias si se desea ejecutar de forma local
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Se ejecuta el programa en modo desarrollo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+------------------------------------------------------------
 
 ### `npm run build`
 
