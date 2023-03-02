@@ -1,6 +1,6 @@
 # Despliegue de proyecto
 
-Este proyecto está desplegado en github pages en la URL ()
+Este proyecto está desplegado en github pages en la URL [deployment](https://victoranizar.github.io/Tendencys-frontend/)
 
 ## Para ejecutar el proyecto
 
@@ -11,6 +11,11 @@ Es necesario instalar las dependencias necesarias si se desea ejecutar de forma 
 ### `npm start`
 
 Se ejecuta el programa en modo desarrollo
+
+### modulos instalados
+En este proyecto se instalaron diversos módulos de node js para facilitar el desarrollo de algunas funcionalidades.
+- Formik nos ayuda al tema de los fomularios, va muy de la mano con el módulo yup
+- react-bootstrap y material ui fueron los moters principales para el tema gráfico y de estilos CSS
 
 ------------------------------------------------------------
 
